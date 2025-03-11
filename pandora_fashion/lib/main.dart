@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Pandora Fashion',
+            title: 'Pandora_Fashion',
             home: Scaffold(
               body: Center(
                 child: CircularProgressIndicator(),
